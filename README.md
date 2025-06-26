@@ -1,6 +1,6 @@
 # OpenAPI到MCP转换工具
 
-[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
+[![Python Version](https://img.shields.io/badge/python-3.12.2+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)]()
 
@@ -19,8 +19,16 @@
 
 ### 系统要求
 
-- Python 3.8 或更高版本
+- **Python 3.12.2 或更高版本**（必需，因为fastmcp>=2.0.0的要求）
 - 网络连接（用于下载依赖包）
+
+### Python版本检查
+
+在安装前，请确认您的Python版本：
+
+```bash
+python --version
+```
 
 ### 安装方法
 
